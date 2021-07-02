@@ -3,6 +3,8 @@ import math
 numBaseTen = int(input('Enter a number: '))
 
 def function(baseTen):
+    if (baseTen == 0):
+        return 0
     binaryNum = 0
     rootBaseTen = math.floor(math.log2(baseTen))
 
